@@ -1,0 +1,2 @@
+module Errorsfor404500Helper
+end
