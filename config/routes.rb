@@ -6,6 +6,9 @@ Rails.application.routes.draw do
   get "up" => "rails/health#show", as: :rails_health_check
   match "/404", to: "errors#not_found", via: :all
   match "/500", to: "errors#internal_server_error", via: :all
+  
+  get '/home', to: 'pages#home'
+  get '/customer_support', to: 'pages#customer_support'
 
   # Defines the root path route ("/")
   # root "posts#index"
