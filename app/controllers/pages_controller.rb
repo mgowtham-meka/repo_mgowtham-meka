@@ -1,9 +1,8 @@
 class PagesController < ApplicationController
-  def home
-    
+  def home  
+  end	
+  def customer_support 
   end
-
-  def customer_support
-    
+  def demo
   end
 end
